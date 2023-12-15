@@ -198,12 +198,12 @@ rules.to_csv('output.csv')
 
 #### Mining Rules and Measures
 
-The Numerical rule mining output consists of association rules indicating strong relationships in the dataset. All rules exhibit perfect fitness and confidence, suggesting a robust fit to the data. While the rules are easily understandable. 
+The Numerical rule mining output consists of association rules indicating strong relationships in the dataset. All rules exhibit perfect fitness and confidence, suggesting a robust fit to the data. While the rules are easily understandable. https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/output.csv here is the output file.
 
 ### Visualization
 
 The framework currently supports the hill slopes visualization method presented in [4]. More visualization methods are planned
-to be implemented in future releases. https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/output.csv here is the output file.
+to be implemented in future releases. 
 
 ```python
 from matplotlib import pyplot as plt
