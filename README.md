@@ -6,7 +6,7 @@ Researchers in the field of Machine Learning (ML) explore different methods unde
 
 The context of the problem is in the wider world of AI, ML, and ARM. Decision-making increasingly relies on data stored in structured databases, where ARM plays a crucial role. The paper highlights the historical trend of interest in ARM, with a peak around 2014. It introduces NARM as an extension of ARM, specifically designed for datasets with both numerical and categorical attributes. The challenge with NARM is its complexity due to a larger search space, leading to the preference for specialized algorithms based on nature-inspired paradigms like SI. The context suggests a need for tailored algorithms to efficiently address the complexities of NARM.
 
-Here We are using NiaARM(Nature-Inspired Association Rule Mining ) for numerical association rule mining.
+### In this context, we employ the NiaARM (Nature-Inspired Association Rule Mining) framework for mining numerical association rules.
 
 <p align="center">
   <img alt="logo" width="300" src="https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/datasets/logo.png">
