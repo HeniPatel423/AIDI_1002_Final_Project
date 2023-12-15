@@ -113,14 +113,14 @@ squashed = squash(dataset, threshold=0.9, similarity='euclidean')
 print(squashed)
 ```
 
-#### Making Rules
+### Making Rules
 
 from niaarm import Dataset, Feature, Rule
 
-# load the Heart dataset
+#### load the Heart dataset
 data = Dataset("datasets/heart.csv")
 
-# making the rule All Features => Target([0, 1]) for our heart data
+#### making the rule All Features => Target([0, 1]) for our heart data
 
 antecedent = [
 Feature("age", dtype="int", min_val=29, max_val=77),
@@ -138,7 +138,7 @@ Feature("cp", dtype="int", min_val=0, max_val=3),
 ]
 consequent = [Feature("target", dtype="int", min_val=0, max_val=1)]
 
-# pass the transaction data to the Rule constructor to enable the calculation of metrics
+#### pass the transaction data to the Rule constructor to enable the calculation of metrics
 rule = Rule(antecedent, consequent, transactions=data.transactions)
 
 print(rule)
@@ -184,7 +184,7 @@ from matplotlib import pyplot as plt
 from niaarm import Dataset, get_rules
 from niaarm.visualize import hill_slopes
 
-dataset = Dataset('datasets/Abalone.csv')
+dataset = Dataset('datasets/heart.csv')
 metrics = ('support', 'confidence')
 rules, _ = get_rules(dataset, 'DifferentialEvolution', metrics, max_evals=1000, seed=1234)
 some_rule = rules[150]
@@ -193,7 +193,7 @@ plt.show()
 ```
 
 <p>
-    <img alt="logo" src="[datasets/hill_slopes.png](https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/datasets/hill_slopes.png)">
+    <img alt="hill_Slope" src="https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/datasets/hill_slopes.png">
 </p>
 
 
