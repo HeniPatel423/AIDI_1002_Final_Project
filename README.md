@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="logo" width="300" src="./dataset/logo.png">
+  <img alt="logo" width="300" src="dataset/logo.png">
 </p>
 
 ---
@@ -168,44 +168,6 @@ print(f'Run Time: {run_time}')
 rules.to_csv('output.csv')
 ```
 
-#### The hard way
-
-The above example can be also be implemented using a more low level interface,
-with the `NiaARM` class directly:
-
-```python
-from niaarm import NiaARM, Dataset
-from niapy.algorithms.basic import DifferentialEvolution
-from niapy.task import Task, OptimizationType
-
-
-data = Dataset("datasets/heart.csv")
-
-# Create a problem
-# dimension represents the dimension of the problem;
-# features represent the list of features, while transactions depicts the list of transactions
-# metrics is a sequence of metrics to be taken into account when computing the fitness;
-# you can also pass in a dict of the shape {'metric_name': <weight of metric in range [0, 1]>};
-# when passing a sequence, the weights default to 1.
-problem = NiaARM(data.dimension, data.features, data.transactions, metrics=('support', 'confidence'), logging=True)
-
-# build niapy task
-task = Task(problem=problem, max_iters=30, optimization_type=OptimizationType.MAXIMIZATION)
-
-# use Differential Evolution (DE) algorithm from the NiaPy library
-# see full list of available algorithms: https://github.com/NiaOrg/NiaPy/blob/master/Algorithms.md
-algo = DifferentialEvolution(population_size=50, differential_weight=0.5, crossover_probability=0.9)
-
-# run algorithm
-best = algo.run(task=task)
-
-# sort rules
-problem.rules.sort()
-
-# export all rules to csv
-problem.rules.to_csv('output.csv')
-```
-
 #### Interest measures
 
 The framework implements several popular interest measures, which can be used to compute the fitness function value of rules
@@ -231,7 +193,7 @@ plt.show()
 ```
 
 <p>
-    <img alt="logo" src="./datasets/hill_slopes.png">
+    <img alt="logo" src="datasets/hill_slopes.png">
 </p>
 
 
