@@ -117,15 +117,15 @@ print(squashed)
 
 from niaarm import Dataset, Feature, Rule
 
-# load the Abalone dataset
+# load the Heart dataset
 data = Dataset("datasets/heart.csv")
 
 # making the rule All Features => Target([0, 1]) for our heart data
 
 antecedent = [
-    Feature("age", dtype="int", min_val=29, max_val=77),
-    Feature("sex", dtype="int", min_val=0, max_val=1),
-    Feature("cp", dtype="int", min_val=0, max_val=3),
+Feature("age", dtype="int", min_val=29, max_val=77),
+Feature("sex", dtype="int", min_val=0, max_val=1),
+Feature("cp", dtype="int", min_val=0, max_val=3),
     Feature("trestbps", dtype="int", min_val=94, max_val=200),
     Feature("chol", dtype="int", min_val=126, max_val=564),
     Feature("fbs", dtype="int", min_val=0, max_val=1),
