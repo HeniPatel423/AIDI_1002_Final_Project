@@ -196,7 +196,7 @@ print(f'Run Time: {run_time}')
 rules.to_csv('output.csv')
 ```
 
-#### Mining Rules and Measures
+### Output of Mining Rules and Measures
 
 The Numerical rule mining output consists of association rules indicating strong relationships in the dataset. All rules exhibit perfect fitness and confidence, suggesting a robust fit to the data. While the rules are easily understandable. https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/output.csv here is the output file.
 
