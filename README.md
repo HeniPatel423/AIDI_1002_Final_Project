@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="logo" width="300" src="/dataset/logo.png">
+  <img alt="logo" width="300" src="https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/datasets/hill_slopes.png">
 </p>
 
 ---
