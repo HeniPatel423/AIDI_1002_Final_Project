@@ -14,7 +14,7 @@ The context of the problem is in the wider world of AI, ML, and ARM. Decision-ma
 
 ---
 
-# NiaARM - A minimalistic framework for Numerical Association Rule Mining
+### NiaARM - A minimalistic framework for Numerical Association Rule Mining
 
 
 NiaARM is a framework for Association Rule Mining based on nature-inspired algorithms for optimization. The framework is written fully in Python and runs on all platforms. NiaARM allows users to preprocess the data in a transaction database automatically, to search for association rules and provide a pretty output of the rules found. This framework also supports integral and real-valued types of attributes besides the categorical ones. Mining the association rules is defined as an optimization problem, and solved using the nature-inspired algorithms that come from the related framework called [NiaPy](https://github.com/NiaOrg/NiaPy).
