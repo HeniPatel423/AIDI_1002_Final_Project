@@ -196,7 +196,7 @@ print(f'Run Time: {run_time}')
 rules.to_csv('output.csv')
 ```
 
-#### Interest measures
+#### Mining Rules and Measures
 
 The framework implements several popular interest measures, which can be used to compute the fitness function value of rules
 and for assessing the quality of the mined rules. A full list of the implemented interest measures along with their descriptions
