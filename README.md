@@ -141,6 +141,7 @@ print(squashed)
 
 ### Making Rules
 
+```python
 from niaarm import Dataset, Feature, Rule
 
 #### load the Heart dataset
@@ -150,27 +151,16 @@ data = Dataset("datasets/heart.csv")
 
 antecedent = [
     Feature("age", dtype="int", min_val=29, max_val=77),
-
     Feature("sex", dtype="int", min_val=0, max_val=1),
-
     Feature("cp", dtype="int", min_val=0, max_val=3),
-
     Feature("trestbps", dtype="int", min_val=94, max_val=200),
-    
     Feature("chol", dtype="int", min_val=126, max_val=564),
-    
     Feature("fbs", dtype="int", min_val=0, max_val=1),
-    
     Feature("restecg", dtype="int", min_val=0, max_val=2),
-    
     Feature("thalach", dtype="int", min_val=71, max_val=202),
-    
     Feature("exang", dtype="int", min_val=0, max_val=1),
-    
     Feature("oldpeak", dtype="float", min_val=0.0, max_val=6.2),
-    
     Feature("slope", dtype="int", min_val=0, max_val=2),
-    
     Feature("thal", dtype="int", min_val=0, max_val=3)
 ]
 consequent = [Feature("target", dtype="int", min_val=0, max_val=1)]
@@ -182,6 +172,7 @@ print(rule)
 print(f"Support: {rule.support}")
 print(f"Confidence: {rule.confidence}")
 print(f"Lift: {rule.lift}")
+```
 
 ### Mining association rules
 
