@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="logo" width="300" src="dataset/logo.png">
+  <img alt="logo" width="300" src="/dataset/logo.png">
 </p>
 
 ---
