@@ -198,14 +198,12 @@ rules.to_csv('output.csv')
 
 #### Mining Rules and Measures
 
-The framework implements several popular interest measures, which can be used to compute the fitness function value of rules
-and for assessing the quality of the mined rules. A full list of the implemented interest measures along with their descriptions
-and equations can be found [here](interest_measures.md).
+The Numerical rule mining output consists of association rules indicating strong relationships in the dataset. All rules exhibit perfect fitness and confidence, suggesting a robust fit to the data. While the rules are easily understandable. 
 
 ### Visualization
 
 The framework currently supports the hill slopes visualization method presented in [4]. More visualization methods are planned
-to be implemented in future releases.
+to be implemented in future releases. https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/output.csv here is the output file.
 
 ```python
 from matplotlib import pyplot as plt
