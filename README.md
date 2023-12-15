@@ -193,7 +193,7 @@ plt.show()
 ```
 
 <p>
-    <img alt="logo" src="datasets/hill_slopes.png">
+    <img alt="logo" src="[datasets/hill_slopes.png](https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/datasets/hill_slopes.png)">
 </p>
 
 
