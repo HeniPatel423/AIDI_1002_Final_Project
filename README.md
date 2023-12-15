@@ -290,7 +290,7 @@ Ideas are based on the following research papers:
 
 [6] I. Fister, I. Fister Jr., D. Novak and D. Verber, [Data squashing as preprocessing in association rule mining](https://iztok-jr-fister.eu/static/publications/300.pdf), 2022 IEEE Symposium Series on Computational Intelligence (SSCI), Singapore, Singapore, 2022, pp. 1720-1725, doi: [10.1109/SSCI51031.2022.10022240](https://doi.org/10.1109/SSCI51031.2022.10022240).
 
-[7] Iztok Fister Jr. and Iztok Fister, A brief overview of swarm intelligence-based algorithms for numerical association rule mining.[https://arxiv.org/pdf/2010.15524v1.pdf]
+[7] Iztok Fister Jr. and Iztok Fister, A brief overview of swarm intelligence-based algorithms for numerical association rule mining.https://arxiv.org/pdf/2010.15524v1.pdf
 
 ## License
 
