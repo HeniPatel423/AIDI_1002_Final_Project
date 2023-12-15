@@ -1,3 +1,13 @@
+# A brief overview of swarm intelligence-based algorithms for numerical association rule mining
+
+The world is highly competitive, and Artificial Intelligence (AI) is changing how we make decisions in various areas of life, from ads to self-driving cars. AI relies heavily on data, similar to how a car needs oil to run. The decisions made by AI are mostly based on past data from specific domains. This data comes in different forms, such as unstructured, semi-structured, or structured. The section mentions that AI has been evolving, and there are discussions about the potential superintelligence of machines.
+
+Researchers in the field of Machine Learning (ML) explore different methods under its umbrella. One crucial area is Association Rule Mining (ARM), which finds relationships between attributes in structured databases. This process helps in market basket analysis, building intelligent systems, and creating rule-based classifiers. Despite a peak in interest around 2014, ARM remains popular among researchers, and new methods continue to emerge each year.
+
+The context of the problem is in the wider world of AI, ML, and ARM. Decision-making increasingly relies on data stored in structured databases, where ARM plays a crucial role. The paper highlights the historical trend of interest in ARM, with a peak around 2014. It introduces NARM as an extension of ARM, specifically designed for datasets with both numerical and categorical attributes. The challenge with NARM is its complexity due to a larger search space, leading to the preference for specialized algorithms based on nature-inspired paradigms like SI. The context suggests a need for tailored algorithms to efficiently address the complexities of NARM.
+
+Here We are using NiaARM(Nature-Inspired Association Rule Mining ) for numerical association rule mining.
+
 <p align="center">
   <img alt="logo" width="300" src="https://github.com/HeniPatel423/AIDI_1002_Final_Project/blob/main/datasets/logo.png">
 </p>
@@ -5,19 +15,6 @@
 ---
 
 # NiaARM - A minimalistic framework for Numerical Association Rule Mining
-
----
-[![PyPI Version](https://img.shields.io/pypi/v/niaarm.svg)](https://pypi.python.org/pypi/niaarm)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/niaarm.svg)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/niaarm.svg)
-[![Downloads](https://pepy.tech/badge/niaarm)](https://pepy.tech/project/niaarm)
-[![GitHub license](https://img.shields.io/github/license/firefly-cpp/niaarm.svg)](https://github.com/firefly-cpp/NiaARM/blob/main/LICENSE)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/firefly-cpp/niaarm.svg)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/firefly-cpp/niaarm.svg)](http://isitmaintained.com/project/firefly-cpp/niaarm "Average time to resolve an issue")
-[![Fedora package](https://img.shields.io/fedora/v/python3-niaarm?color=blue&label=Fedora%20Linux&logo=fedora)](https://src.fedoraproject.org/rpms/python-niaarm)
-[![AUR package](https://img.shields.io/aur/version/python-niaarm?color=blue&label=Arch%20Linux&logo=arch-linux)](https://aur.archlinux.org/packages/python-niaarm)
-[![Packaging status](https://repology.org/badge/tiny-repos/python:niaarm.svg)](https://repology.org/project/python:niaarm/versions)
-[![DOI](https://joss.theoj.org/papers/10.21105/joss.04448/status.svg)](https://doi.org/10.21105/joss.04448)
 
 
 NiaARM is a framework for Association Rule Mining based on nature-inspired algorithms for optimization. The framework is written fully in Python and runs on all platforms. NiaARM allows users to preprocess the data in a transaction database automatically, to search for association rules and provide a pretty output of the rules found. This framework also supports integral and real-valued types of attributes besides the categorical ones. Mining the association rules is defined as an optimization problem, and solved using the nature-inspired algorithms that come from the related framework called [NiaPy](https://github.com/NiaOrg/NiaPy).
